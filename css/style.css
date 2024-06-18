@@ -1,23 +1,54 @@
 body{
-  font-family:sans-serif
+  font-family: sans-serif;
 }
 
 input{
   border-radius: 3px;
   border: none;
-  padding: 6px 16px;
+  padding:6px 16px;
 }
 
 button{
+  padding: 8px;
   border-radius: 3px;
   border: none;
-  padding: 4px 16px;
+}
+
+.title{
+  text-align: center;
+  font-weight: bold;
+}
+
+p{
+  margin: 0;
 }
 
 .input-area{
-  background: black;
+  background: rgb(22, 212, 255);
   width: 400px;
   height: 30px;
-  padding: 8px;
-  border-radius: 8px;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.discomplete-area,
+.complete-area{
+  width: 400px;
+  border: #3333 2px solid;
+  border-radius:3px;
+  margin: 8px 0;
+  padding: 16px;
+  min-height: 150px;
+}
+
+.complete-area{
+  background: #ececec;
+}
+
+
+.list-row{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 16px;
 }
